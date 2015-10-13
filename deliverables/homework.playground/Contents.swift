@@ -9,7 +9,7 @@ var shoppinglist: [String]
 //: Add at least 5 items to the array using 3 different insertion methods
 shoppinglist = [ "apple","pear","soymilk"]
 shoppinglist.append("beer")
-shoppinglist = shoppinglist + ["egg"]
+shoppinglist = shoppinglist + ["bagels"]
 
 //: Sort your array of items
 let sortedlist = shoppinglist.sort { $0 < $1 }
